@@ -1,0 +1,3 @@
+/home/skullfurious/dev/generic/learning_cxx/another_sfml/build/CMakeFiles/SnakeGame.dir
+/home/skullfurious/dev/generic/learning_cxx/another_sfml/build/CMakeFiles/edit_cache.dir
+/home/skullfurious/dev/generic/learning_cxx/another_sfml/build/CMakeFiles/rebuild_cache.dir
