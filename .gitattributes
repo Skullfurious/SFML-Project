@@ -1,26 +1,26 @@
 # Potentially Large Image Formats
-*.png
-*.jpeg
-*.jpg
-*.bmp
-*.raw
-*.raw16
-*.gif
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
+*.raw filter=lfs diff=lfs merge=lfs -text
+*.raw16 filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
 
 ## Proprietary
-*.psd
-*.ai
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.ai filter=lfs diff=lfs merge=lfs -text
 
 # Potentially Large Video Formats
-*.mp4
-*.mov
-*.webm
-*.mpeg
-*.mkv
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.webm filter=lfs diff=lfs merge=lfs -text
+*.mpeg filter=lfs diff=lfs merge=lfs -text
+*.mkv filter=lfs diff=lfs merge=lfs -text
 
 # Potentially Large Audio Formats
-*.mp3
-*.aac
-*.ogg
-*.wav
-*.wma
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.aac filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.wma filter=lfs diff=lfs merge=lfs -text
