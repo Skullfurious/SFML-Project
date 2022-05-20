@@ -8,6 +8,8 @@ This project is for me to learn more about CMake and SFML while adapting to a Li
 * CMake (3.14 or greater)
 * Make
 * SFML (Available from your OS' Repository)
+* git lfs
+
 ### Ubuntu (Based Distribution) Setup
 * `sudo apt get install libsfml-dev`
 * `git clone ...`
