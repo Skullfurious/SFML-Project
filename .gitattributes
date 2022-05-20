@@ -1,0 +1,26 @@
+# Potentially Large Image Formats
+*.png
+*.jpeg
+*.jpg
+*.bmp
+*.raw
+*.raw16
+*.gif
+
+## Proprietary
+*.psd
+*.ai
+
+# Potentially Large Video Formats
+*.mp4
+*.mov
+*.webm
+*.mpeg
+*.mkv
+
+# Potentially Large Audio Formats
+*.mp3
+*.aac
+*.ogg
+*.wav
+*.wma
