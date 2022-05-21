@@ -1,5 +1,8 @@
 # User Configurations
 .vscode/
 
+# Build Files
+build/*
+
 # Log Files
 *.log
