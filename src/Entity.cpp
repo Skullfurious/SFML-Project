@@ -1,7 +1,4 @@
-#include <vector>
-#include <string>
-#include <Component.hpp>
-#include <Entity.hpp>
+#include "Entity.hpp"
 
 std::string Entity::get_name() {
     return this->name;
