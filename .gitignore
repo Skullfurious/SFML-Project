@@ -1,5 +1,6 @@
 # User Configurations
 .vscode/
+notes.md
 
 # Build Files
 build/*
