@@ -1,5 +1,5 @@
 #include "Component.hpp"
 
-void Component::set_parent(const Entity& entity) {
-    this->parent = entity;
+void Component::set_parent(Entity& entity) {
+    this->parent = &entity;
 }

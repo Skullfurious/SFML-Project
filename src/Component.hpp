@@ -1,13 +1,15 @@
 #pragma once
 
 #include <string>
-#include "Entity.hpp"
 
+class Entity;
 class Component {
     public:
-        void set_parent(const Entity&);
-    private:
-        Entity parent;
-        std::string name;
+        Component( Entity& p) : parent(&p) {}
 
+        void set_parent(Entity&);
+
+    private:
+        Entity* parent;
+        std::string name;
 };
