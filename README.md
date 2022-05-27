@@ -4,17 +4,23 @@ This project is for me to learn more about CMake and SFML while adapting to a Li
 
 ## Requirements
 
-* GCC Compiler
+* GCC (11.2.0)
 * CMake (3.14 or greater)
-* Make
-* SFML (Available from your OS' Repository)
-* git lfs
+* Make (4.3)
+* SFML 2.5.1 (libsfml-dev)
+* Git (2.34.1)
+* Git LFS (3.1.4)
 
-### Ubuntu (Based Distribution) Setup
-* `sudo apt get install libsfml-dev`
-* `git clone ...`
+### Ubuntu (*Based Distribution) Setup
+* `sudo apt-get install libsfml-dev`
+* `sudo apt-get install cmake`
+* `git clone git@github.com:Skullfurious/sfml_snake_game.git`
+* `mkdir build/`
 * `cd build/`
 * `cmake .. & make && ./SnakeGame`
 
-## Attribution
-* SFML Discord Community and Project Developers
+### Attribution
+* SFML Discord Community and the SFML Project Developers
+
+### License Information
+* To be determined at a later date.
