@@ -5,8 +5,8 @@
 class Entity;
 class Component {
     public:
-        Component() = default;
-        Component( Entity& p) : parent(&p) {}
+        Component( Entity& parent, std::string name) 
+            : parent(&parent), name(name) {}
 
         void set_parent(Entity& parent);
         void set_name(std::string name);

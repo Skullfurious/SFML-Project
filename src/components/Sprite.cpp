@@ -1,8 +1,9 @@
 #include "Sprite.hpp"
+#include "../Entity.hpp"
 
-Sprite::Sprite(std::string name, std::string path) {
-    this->set_name(name);
-    this->Texture.loadFromFile(path);
+Sprite::Sprite(Entity& parent, std::string name, std::string path) 
+    : Component(parent, name) {
+        this->Texture.loadFromFile(path);
 }
 
 void Sprite::load_texture(std::string path) {

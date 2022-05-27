@@ -4,10 +4,9 @@
 #include <string>
 #include "../Component.hpp"
 
-class Sprite : Component {
+class Sprite : public Component {
     public:
-        Sprite() = default;
-        Sprite(std::string name, std::string path);
+        Sprite(Entity& parent, std::string name, std::string path);
 
         void load_texture(std::string path);
 
