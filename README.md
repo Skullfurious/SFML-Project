@@ -17,7 +17,7 @@ This project is for me to learn more about CMake and SFML while adapting to a Li
 * `git clone git@github.com:Skullfurious/sfml_snake_game.git`
 * `mkdir build/`
 * `cd build/`
-* `cmake .. & make && ./SnakeGame`
+* `cmake .. && make && ./SnakeGame`
 
 ### Attribution
 * SFML Discord Community and the SFML Project Developers
