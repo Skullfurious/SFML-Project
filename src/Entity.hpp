@@ -10,7 +10,7 @@ class Entity {
 
         std::string get_name();
         std::vector<Component> get_components();
-        void add_component(const Component&);
+        void add_component(const Component& component);
 
     private:
         std::string name;

@@ -8,6 +8,9 @@ add_executable(${PROJECT_NAME}
     src/Util.cpp
     src/Component.cpp
     src/Entity.cpp
+
+    src/components/Sprite.cpp
+    src/components/Sprite.hpp
     )
 
     target_link_libraries(${PROJECT_NAME} PRIVATE sfml-graphics)
