@@ -11,6 +11,8 @@ add_executable(${PROJECT_NAME}
 
     src/components/Sprite.cpp
     src/components/Sprite.hpp
+    src/components/Transform.cpp
+    src/components/Transform.hpp
     )
 
     target_link_libraries(${PROJECT_NAME} PRIVATE sfml-graphics)
