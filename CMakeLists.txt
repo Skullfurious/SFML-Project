@@ -5,14 +5,16 @@ find_package(SFML 2.5.1 COMPONENTS graphics REQUIRED)
 
 add_executable(${PROJECT_NAME} 
     src/Main.cpp 
-    src/Util.cpp
     src/Component.cpp
     src/Entity.cpp
 
     src/components/Sprite.cpp
     src/components/Sprite.hpp
-    src/components/Transform.cpp
-    src/components/Transform.hpp
+    src/components/Transform2D.cpp
+    src/components/Transform2D.hpp
+
+    src/utilities/Vector2.hpp
+
     )
 
     target_link_libraries(${PROJECT_NAME} PRIVATE sfml-graphics)
